@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather 
+        action="../COM/gather.php"
+        method="post"
+        timeout="10" 
+        finishOnKey="*">
+        <Say>If you would like to participate in a study at Florida State University involving a driving simulator, press 1 then the * key, otherwise you may hang up now.</Say>
+    </Gather>
+</Response>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Response>
+    <Say>Twilio can speak text.</Say>
+    <Say voice="man">It can sound like a man.</Say>
+    <Say voice="woman">Or a woman.</Say>
+    <Say language="es">O habla en espanol.</Say>
+    <Say voice="woman">Tada!</Say>
+</Response>

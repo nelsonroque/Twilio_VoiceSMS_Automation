@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather timeout="10" finishOnKey="1">
+        <Say>If you would like to participate in a study at Florida State University involving a driving simulator, press 1, otherwise you may hang up now.</Say>
+    </Gather>
+	<!--<Say>Thank you for responding to our ad.  Please record your message after the beep, and someone from our lab will reach out to you shortly with more information about our ongoing driving simulator study at Florida State University.</Say>-->
+	<Say>
+        Please wait as we transfer you to someone from the ADAPTS lab at Florida State University...
+    </Say>
+    <!--<Record
+    	playBeep="true" 
+        maxLength="20"
+        finishOnKey="*"
+        />-->
+    <!--<Say>I did not receive a recording</Say>-->
+    <Dial>786-205-3644</Dial>
+</Response>
